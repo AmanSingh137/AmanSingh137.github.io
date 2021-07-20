@@ -1,0 +1,115 @@
+
+@media all and (max-width: 1000px) {
+    .lesson {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+    
+    .top-wrapper h1 {
+      font-size: 32px;
+      flex-direction: column;
+    }
+    
+    .heading h2 {
+      font-size: 20px;
+    }
+
+    .container {
+      position: relative;
+    }
+
+    .line {
+      width: 30px;
+      height: 3px;
+      background-color: white;
+      margin: 5px;
+      
+    }
+    .liner {
+      position: absolute;
+      cursor: pointer;
+      right: 0%;
+      top: 50%;
+      transform: translate(-5%, -50%);
+      z-index: 2;
+    }
+    .header-right {
+      position: fixed;
+      background-color: rgb(255, 184, 53);
+      height: 100vh;
+      width: 100%;
+      flex-direction: column;
+      clip-path: circle(90px at 90% -10%);
+      -webkit-clip-path: circle(90px at 90% -10%);
+      transition: all 1s ease-out;
+    }
+
+    .header-right.open {
+      clip-path: circle(1000px at 90% -10%);
+      -webkit-clip-path: circle(1000px at 90% -10%);
+    }
+    
+  }
+
+  @media all and (max-width: 670px) {
+    .lesson {
+      width: 100%;
+    } 
+    
+    footer {
+      text-align: center;
+    }
+ 
+    .top-wrapper {
+      text-align: left;
+    }
+   
+    .menu-icon{
+      display: block;
+    }
+    
+    .top-wrapper h1 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    
+    .top-wrapper p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .container {
+      position: relative;
+    }
+
+    .line {
+      width: 30px;
+      height: 3px;
+      background-color: white;
+      margin: 5px;
+      
+    }
+    .liner {
+      position: absolute;
+      cursor: pointer;
+      right: 0%;
+      top: 50%;
+      transform: translate(-5%, -50%);
+      z-index: 2;
+    }
+    .header-right {
+      position: fixed;
+      background-color: rgb(255, 184, 53);
+      height: 100vh;
+      width: 100%;
+      flex-direction: column;
+      clip-path: circle(90px at 90% -10%);
+      -webkit-clip-path: circle(90px at 90% -10%);
+      transition: all 1s ease-out;
+    }
+
+    .header-right.open {
+      clip-path: circle(1000px at 90% -10%);
+      -webkit-clip-path: circle(1000px at 90% -10%);
+    }
+    
+  }
