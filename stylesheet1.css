@@ -13,8 +13,8 @@
 
 .linerleft {
   position: absolute;
-  cursor: pointer;
   left: 0%;
+   right: 100%;
   top: 30%;
   
   z-index: 2;
